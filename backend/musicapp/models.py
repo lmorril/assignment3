@@ -18,6 +18,7 @@ class Users(models.Model):
 class Ratings(models.Model):
     id = models.IntegerField(primary_key=True)
     username = models.ForeignKey(Users, on_delete=models.CASCADE)
+    artist = models.CharField(max_length=200, default='None')
     song = models.CharField(max_length=200)
     rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(10)])
 
@@ -25,15 +26,3 @@ class Ratings(models.Model):
         return self.song
 
 
-
-class Song(models.Model):
-    id = models.IntegerField(primary_key=True)
-    song = models.ForeignKey(Ratings, related_name="info", on_delete=models.CASCADE)
-    artist = models.CharField(max_length=200)
-
-class SongDetails(models.Model):
-    id = models.IntegerField(primary_key=True)
-    song = models.ForeignKey(Ratings, related_name="s_info", on_delete=models.CASCADE)
-    album = models.CharField(max_length=200)
-    year = models.IntegerField(validators=[MinValueValidator(1900), MaxValueValidator(2022)])
-    genre = models.CharField(max_length=200)

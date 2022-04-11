@@ -21,6 +21,7 @@ from musicapp import views
 
 router = routers.DefaultRouter()
 router.register(r'ratings', views.RatingsView, 'ratings')
+router.register(r'users', views.UsersView, 'users')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
