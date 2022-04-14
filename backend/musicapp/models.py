@@ -20,7 +20,7 @@ class Ratings(models.Model):
     username = models.ForeignKey(Users, on_delete=models.CASCADE)
     artist = models.CharField(max_length=200, default='None')
     song = models.CharField(max_length=200)
-    rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(10)])
+    rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(5)])
 
     def __str__(self):
         return self.song

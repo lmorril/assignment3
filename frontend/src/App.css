@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+ button {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .tab-list > span {
+    padding: 5px 8px;
+    border: 1px solid #282c34;
+    border-radius: 10px;
+    margin: 5px;
+    /* Spans do not have margins on top or bottom.
+       However, this can be fixed with an inline-block
+       per https://stackoverflow.com/a/11700999. */
+    display: inline-block;
+    cursor: pointer;
+  }
+  /* Change the style for the active tab-list span.
+     Other than that, it inherits from the above. */
+  .tab-list > span.active {
+    background-color: #282c34;
+    color: #ffffff;
+  }
+
+
