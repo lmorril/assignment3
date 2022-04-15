@@ -2,7 +2,8 @@
 HW3 for Software Engineering at Wesleyan University
 
 # Installation
-To run this project, you need to have Python 3+ installed and clone this project with the following command:
+To run this project, you need to have Python 3+ and npm (from Node.js) installed.
+Then, clone this project with the following command:
 ```bash
 git clone https://github.com/lmorril/assignment3.git <local directory of your choice>
 ```
@@ -18,8 +19,6 @@ source django-react/bin/activate
 ## 2. Run the Backend
 ```bash
 cd backend
-pip3 install djangorestframework
-pip3 install django-cors-headers
 python3 manage.py runserver
 ```
 
