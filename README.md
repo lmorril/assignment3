@@ -1,5 +1,5 @@
 # Background
-HW3 for Software Engineering at Wesleyan University
+HW3 for Software Engineering at Wesleyan University. This project was made possible by the great collaboration of the following students: Luke Morrill, Noah Hartzfeld, Henry Yang
 
 # Installation
 To run this project, you need to have Python 3+ and npm (from Node.js) installed.
