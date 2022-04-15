@@ -62,16 +62,16 @@ The home page should now load at http://localhost:3000/
 ## Core Features:
 
 ### At (http://localhost:3000/)
-  -Table of viewable ratings. Click on edit or delete to change the entries.
+  - Table of viewable ratings. Click on edit or delete to change the entries.
 
-     -Edit: Re-enter the id and username, then change to the rating you want. After clicking save, reload the page to see your edited entry in the table
-     -Delete: click delete to remove entry from the database
+     - Edit: Re-enter the id and username, then change to the rating you want. After clicking save, reload the page to see your edited entry in the table
+     - Delete: click delete to remove entry from the database
 
-  -Add your new rating by enter your id, username, song, artist, and rating to create a new rating in the app. Ratings are only 1-5!
+  - Add your new rating by enter your id, username, song, artist, and rating to create a new rating in the app. Ratings are only 1-5!
 
 ### At http://localhost:3000/search
 
-  -Search the database for all entries of a certain artist. Type in the artist name and find past ratings for each of their songs
+  - Search the database for all entries of a certain artist. Type in the artist name and find past ratings for each of their songs
 
 ### At http://localhost:3000/stats
 
