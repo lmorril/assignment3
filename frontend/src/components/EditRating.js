@@ -50,4 +50,4 @@ const EditRating = ({setEditRatings, handleEditChange, handleEditSubmit}) => {
   )
 }
 
-export default EditRating
+export default EditRating;

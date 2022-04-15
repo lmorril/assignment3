@@ -108,11 +108,11 @@ const Home = () => {
         rating: editRatings.rating,
     };
    
-axios.put(url, editRatingsData).then((response) => {
-  console.log(response.status);
-  console.log(response.data);
-});
-}
+    axios.put(`http://127.0.0.1:8000/api/ratings/${editRatingsData.id}/`, editRatingsData)
+    .then((response) => {
+      console.log(response.status);
+      console.log(response.data);});};
+    
 
   // const newRatings = [...ratings];
   // const index = ratings.findIndex((ratings) => ratings.id === editRatingsId)
@@ -354,4 +354,4 @@ const handleDelete = (item) => {
   // )
 // }
 
-export default Home
+export default Home;
