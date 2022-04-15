@@ -11,7 +11,7 @@ git clone https://github.com/lmorril/assignment3.git <local directory of your ch
 # Running the App
 
 ## 1. Start Virtual Enviroment
-In your terminal, change the current working directory to <local directory of your choice> and run:
+In your terminal, change the current working directory to "<local directory of your choice>" and run:
 ```bash
 source django-react/bin/activate
 ```
