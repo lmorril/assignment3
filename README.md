@@ -67,8 +67,7 @@ The home page should now load at http://localhost:3000/
      -Edit: Re-enter the id and username, then change to the rating you want. After clicking save, reload the page to see your edited entry in the table
      -Delete: click delete to remove entry from the database
 
-  -Add your new rating
-    -Enter your id, username, song, artist, and rating to create a new rating in the app. Ratings are only 1-5!
+  -Add your new rating by enter your id, username, song, artist, and rating to create a new rating in the app. Ratings are only 1-5!
 
 ### At http://localhost:3000/search
 
